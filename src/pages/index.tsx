@@ -15,9 +15,14 @@ e.preventDefault();
   <button type='submit' >Make it Tiny</button>
 </form>
 
-<div>
+<div className='flex flex-col' > 
   here is the list of your urls
-  
+<div className='flex flex-col' >
+  <div>All long urls</div>
+</div>
+<div className=''>
+<div>Shortened Urls</div>
+</div>
 </div>
 
     </div>
